@@ -12,7 +12,7 @@ Let's be honest, we all have played Hangman a lot when we were in school, I mean
 - Add a first letter and mark vowels.
 
 ## Example code for Web Scrapping:
-from bs4 import BeautifulSoup
+`from bs4 import BeautifulSoup
 import requests
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
 
@@ -33,4 +33,4 @@ def weather(city):
 print("Enter the city name")
 city=input()
 city=city+" Weather"
-weather(city)
+weather(city)`
